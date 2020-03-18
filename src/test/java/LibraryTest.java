@@ -28,10 +28,7 @@ public class LibraryTest {
         library.addBook(book);
         library.addBook(book);
         library.addBook(book);
-        library.addBook(book);
-        library.addBook(book);
-        library.addBook(book);
-        assertEquals(6, library.bookCount());
+        assertEquals(3, library.bookCount());
     }
 
     @Test

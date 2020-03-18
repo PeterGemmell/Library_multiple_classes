@@ -11,7 +11,6 @@ public class Library {
     }
 
     public void addBook(Book book){
-        maxStock = 6;
         if(this.book.size() < this.maxStock) {
             this.book.add(book);
         }
